@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+
+spring:
+  profiles:
+    active: local
+
+logging:
+  level:
+    root: info
+    com.idus.userorder: debug
+    org.hibernate:
+      SQL: debug
